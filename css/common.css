@@ -89,14 +89,14 @@ Layout
 .header .logo {float:left;margin-top:50px; margin-left: 50px;}
 .header .logo > a {display:block;}
 
-.header .nav {float:left;margin-top:50px; margin-right: 50px;}
+.header .nav {float:right;margin-top:50px; margin-right: 50px;}
 .header .nav_list > li {float:left;margin-left:15px;}
 .header .nav_list > li > a {font-size:18px;}
 
-.header .nav {float:left;margin-top:18px; margin-left: 50px;}
 
 /* container */
-.cont_inner {position:relative;width:100%;margin:0 auto;}
+.cont_inner {position:relative;}
+.header .cont_inner {margin:0 100px;}
 
 
 
