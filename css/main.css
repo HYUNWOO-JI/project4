@@ -10,4 +10,72 @@
 .aboutme .cont_inner {display: flex; align-items: center;}
 
 .me_img {width: 36.45833333333333vw;}
+.me_right {margin-left: 10.66666666666667vw; width: 26.04166666666667vw; line-height: 1.6;}
+.me_right p, .me_right span{font-size: 30px; font-weight: 700; letter-spacing: -1.5px;}
+.me_right span,.me_right strong {display: block; color: #d18c2f;}
+.me_right strong {font-size: 40px; font-family: "Rachel Roman"; font-weight: 400; letter-spacing: -2px;}
+
+.profile {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
+
+.profile .cont_inner_left {display: flex; align-items: center; flex-direction: row-reverse; justify-content: space-between;}
+.profile .cont_inner_left > div {border: 2px solid red;}
+.let_img {position: relative; width: 46.45833333333333vw;}
+.let_img p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; left: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
+
+
+.right_txt .tit2 {font-size: 24px; color: #c5a045;}
+.right_txt ul li {font-size: 24px;}
+.right_txt .edu {margin-bottom: 70px;}
+.right_txt .edu .date {margin-right: 30px;}
+.right_txt .care {margin-bottom: 70px;}
+
+.skill ul li span {display: inline-block;}
+.skill ul li .subject {width: 222px; background: blue;}
+.skill ul li .score {width: 312px; height: 18px; background: #000;}
+.skill ul li .score::before {content: ""; display: block;   height: 100%; width: 0; background: #ffeb3b; transition: width 0.5s;}
+.skill.on ul li .s80::before {width: 80%;}
+.skill.on ul li .s70::before {width: 70%;}
+
+
+
+.webacces {position: relative; width: 100%;}
+.webacces .cont_inner .webtit {padding: 230px 0; letter-spacing: -2.5px;} 
+.webtit .color {color: #d18c2f;}
+.webacces h2 {font-size: 50px; padding: 0 0 100px;}
+.accsubtit {font-size: 30px; line-height: 30px; text-align: center;  color: #d18c2f;}
+.webacces .cont_inner ul li {float: left;}
+.webacces strong {font-size: 30px;}
+
+
+.projects {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
+
+.projects .cont_inner_right {display: flex; align-items: center; justify-content: space-around;}
+.projects .cont_inner_right > div {border: 2px solid red; background: yellow;}
+.proimg {position: relative; width: 46.45833333333333vw; height: 52.08333333333333;}
+.proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
+
+.projects .cont_inner_left {display: flex; align-items: center;  flex-direction: row-reverse; justify-content: space-around;}
+.projects .cont_inner_left > div {border: 2px solid red;}
+
+.bmw .proimg p {left: 0;}
+
+.prosub strong {font-size: 35px; line-height: 70px; letter-spacing: -1.75px;}
+.prosub .protit {font-size: 30px; line-height: 70px;letter-spacing: -1.5px; color: #c5a045;}
+.prosub p {color: #b67d30;}
+
+.ceramic {margin-top: 100px;}
+.bmw, .polo {margin-top: 400px;}
+
+#footer {position: relative; width: 100%; background: #ffeb3b;}
+.foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 300px 0;}
+
+.foot_btm {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #ffeb3b;}
+
+.foot_btm .logo {float:left;margin-top:45px;}
+.foot_btm .logo > a {display:block;}
+
+.foot_btm .cont_inner {margin:0 100px;}
+.foot_btm .nav {float:right;margin-top:40px; margin-right: 50px;}
+.foot_btm .nav_list > li {float:left;margin-left:15px;}
+.foot_btm .nav_list > li > a {font-size:18px;}
 
