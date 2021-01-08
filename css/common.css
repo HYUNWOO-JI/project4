@@ -95,6 +95,7 @@ Layout
 ***********************************************************************/
 body {background-color: #e0e0e0; font-size: 24px;}
 /* header */
+<<<<<<< HEAD
 .header {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #ffeb3b; font-family: "Rachel Roman";}
 
 .logo {float:left;margin-top:45px;}
@@ -104,6 +105,17 @@ body {background-color: #e0e0e0; font-size: 24px;}
 .nav {float:right;margin-top:40px; margin-right: 50px;}
 .nav_list > li {float:left;margin-left:15px;}
 .nav_list > li > a {font-size:18px;}
+=======
+.header {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #ffeb3b;}
+
+.header .logo {float:left;margin-top:45px;}
+.header .logo > a {display:block;}
+
+.header .cont_inner {margin:0 100px;}
+.header .nav {float:right;margin-top:40px; margin-right: 50px;}
+.header .nav_list > li {float:left;margin-left:15px;}
+.header .nav_list > li > a {font-size:18px;}
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 
 /* container */
 .container {background:#e0e0e0; margin: 0 auto;}

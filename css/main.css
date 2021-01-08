@@ -2,7 +2,11 @@
 
 
 .webborn {position: relative; width: 100%; height: 100%; background: #ffeb3b;}
+<<<<<<< HEAD
 .webborn .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 80px; padding: 300px 0; font-family: "Rachel Roman";}
+=======
+.webborn .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 80px; padding: 300px 0;}
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 .fixedphone {position: absolute; bottom: 0; right: 4.208333333333333vw; transform: rotate(90deg); transform-origin: right top;}
 
 
@@ -29,7 +33,10 @@
 .right_txt .edu .date {margin-right: 30px;}
 .right_txt .care {margin-bottom: 70px;}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 .skill ul li span {display: inline-block;}
 .skill ul li .subject {width: 222px; background: blue;}
 .skill ul li .score {width: 312px; height: 18px; background: #000;}
@@ -38,6 +45,10 @@
 .skill.on ul li .s70::before {width: 70%;}
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 .webacces {position: relative; width: 100%;}
 .webacces .cont_inner .webtit {padding: 230px 0; letter-spacing: -2.5px;} 
 .webtit .color {color: #d18c2f;}
@@ -48,6 +59,7 @@
 
 
 .projects {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
+<<<<<<< HEAD
 .projects > div {display: flex; align-items: center; justify-content: space-between;}
 .projects .cont_inner_right .proimg {border: 2px solid red; background: yellow;}
 .projects .cont_inner_left  .proimg {border: 2px solid red; background: blue;}
@@ -57,6 +69,17 @@
 .projects .cont_inner_left {display: flex; align-items: center;  flex-direction: row-reverse;}
 .projects .cont_inner_left > div {border: 2px solid red;}
 .pr_img {position: absolute; top: 50%; left: 50%; transform:translate(-50%,-50%);}
+=======
+
+.projects .cont_inner_right {display: flex; align-items: center; justify-content: space-around;}
+.projects .cont_inner_right > div {border: 2px solid red; background: yellow;}
+.proimg {position: relative; width: 46.45833333333333vw; height: 52.08333333333333;}
+.proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
+
+.projects .cont_inner_left {display: flex; align-items: center;  flex-direction: row-reverse; justify-content: space-around;}
+.projects .cont_inner_left > div {border: 2px solid red;}
+
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 .bmw .proimg p {left: 0;}
 
 .prosub strong {font-size: 35px; line-height: 70px; letter-spacing: -1.75px;}
@@ -66,18 +89,29 @@
 .ceramic {margin-top: 100px;}
 .bmw, .polo {margin-top: 400px;}
 
+<<<<<<< HEAD
 footer {position: relative; width: 100%; background: #ffeb3b; font-family: "Rachel Roman";}
 .foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 150px 0 300px; margin: 100px;}
 
 .foot_top a {display: block; width: 150px; height: 70px; line-height: 70px; background: blue; margin: 0 auto; text-align: center; margin-bottom: 100px; border-radius: 10px;}
 
 .foot_btm {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #fff;}
+=======
+#footer {position: relative; width: 100%; background: #ffeb3b;}
+.foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 300px 0;}
+
+.foot_btm {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #ffeb3b;}
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 
 .foot_btm .logo {float:left;margin-top:45px;}
 .foot_btm .logo > a {display:block;}
 
 .foot_btm .cont_inner {margin:0 100px;}
+<<<<<<< HEAD
 .foot_btm .nav {float:right; bottom: 0;}
+=======
+.foot_btm .nav {float:right;margin-top:40px; margin-right: 50px;}
+>>>>>>> a929a9053d3a648a88895af18937352de608b74a
 .foot_btm .nav_list > li {float:left;margin-left:15px;}
 .foot_btm .nav_list > li > a {font-size:18px;}
 
