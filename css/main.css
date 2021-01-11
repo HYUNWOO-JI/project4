@@ -48,8 +48,13 @@
 
 .projects {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
 .projects > div {display: flex; align-items: center; justify-content: space-between;}
+<<<<<<< HEAD
 .projects .cont_inner_right .proimg {background:  #ffeb3b;}
 .projects .cont_inner_left  .proimg { background: #007c89;}
+=======
+.projects .cont_inner_right .proimg {border: 2px solid red; background:  #ffeb3b;}
+.projects .cont_inner_left  .proimg {border: 2px solid red; background: #007c89;}
+>>>>>>> f5904415313be5d469d796c17fd0e3d3ea01837f
 .proimg {position: relative; width: 52.08333333333333vw; height: 62.5vw; }
 .proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0;  line-height: 34px;}
 
