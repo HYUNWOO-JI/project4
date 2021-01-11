@@ -2,11 +2,11 @@
 
 
 .webborn {position: relative; width: 100%; height: 100%; background: #ffeb3b;}
-.webborn .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 80px; padding: 300px 0; font-family: "Rachel Roman";}
-.fixedphone {position: absolute; bottom: 0; right: 4.208333333333333vw; transform: rotate(90deg); transform-origin: right top;}
+.webborn .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 80px; padding: 300px 0;}
 
 
-.aboutme {width: 100%; height: 100%; padding: 100px 0;}
+
+.aboutme {width: 100%; height: 100%; padding: 100px 0 200px;}
 .aboutme .cont_inner {display: flex; align-items: center;}
 
 .me_img {width: 36.45833333333333vw;}
@@ -15,7 +15,7 @@
 .me_right span,.me_right strong {display: block; color: #d18c2f;}
 .me_right strong {font-size: 40px; font-family: "Rachel Roman"; font-weight: 400; letter-spacing: -2px;}
 
-.profile {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
+.profile {position: relative; width: 100%; height: 100%; padding: 100px 0; font-weight: 700;}
 
 .profile .cont_inner_left {display: flex; align-items: center; flex-direction: row-reverse; justify-content: space-between;}
 .profile .cont_inner_left > div {border: 2px solid red;}
@@ -31,7 +31,7 @@
 
 
 .skill ul li span {display: inline-block;}
-.skill ul li .subject {width: 222px; background: blue;}
+.skill ul li .subject {width: 222px;}
 .skill ul li .score {width: 312px; height: 18px; background: #000;}
 .skill ul li .score::before {content: ""; display: block;   height: 100%; width: 0; background: #ffeb3b; transition: width 0.5s;}
 .skill.on ul li .s80::before {width: 80%;}
@@ -49,8 +49,8 @@
 
 .projects {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
 .projects > div {display: flex; align-items: center; justify-content: space-between;}
-.projects .cont_inner_right .proimg {border: 2px solid red; background: yellow;}
-.projects .cont_inner_left  .proimg {border: 2px solid red; background: blue;}
+.projects .cont_inner_right .proimg {border: 2px solid red; background:  #ffeb3b;}
+.projects .cont_inner_left  .proimg {border: 2px solid red; background: #007c89;}
 .proimg {position: relative; width: 52.08333333333333vw; height: 62.5vw; }
 .proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
 
@@ -66,12 +66,15 @@
 .ceramic {margin-top: 100px;}
 .bmw, .polo {margin-top: 400px;}
 
-footer {position: relative; width: 100%; background: #ffeb3b; font-family: "Rachel Roman";}
-.foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 150px 0 300px; margin: 100px;}
 
-.foot_top a {display: block; width: 150px; height: 70px; line-height: 70px; background: blue; margin: 0 auto; text-align: center; margin-bottom: 100px; border-radius: 10px;}
+.other {text-align: center;}
 
-.foot_btm {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background: #fff;}
+footer {position: relative; width: 100%; background: #ffeb3b; font-family: "Rachel Roman"; }
+.foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 150px 0 300px; margin: 100px; font-weight: 400;}
+
+.foot_top a {display: block; width: 150px; height: 70px; line-height: 70px; background: #007c89; margin: 0 auto; text-align: center; margin-bottom: 100px; border-radius: 10px;}
+
+.foot_btm {width: 100%; height: 100px; top: 0; left: 0; z-index: 99; background:transparent;}
 
 .foot_btm .logo {float:left;margin-top:45px;}
 .foot_btm .logo > a {display:block;}
