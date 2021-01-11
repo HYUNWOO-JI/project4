@@ -52,6 +52,7 @@
 .projects .cont_inner_left  .proimg { background: #007c89;}
 .proimg {position: relative; width: 52.08333333333333vw; height: 62.5vw; }
 .proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0;  line-height: 34px;}
+.proimg p:hover {}
 
 .projects .cont_inner_left {display: flex; align-items: center;  flex-direction: row-reverse;}
 .pr_img {position: absolute; top: 50%; left: 50%; transform:translate(-50%,-50%);}
