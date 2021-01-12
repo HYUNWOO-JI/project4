@@ -1,11 +1,19 @@
 @charset "utf-8";
 
+.fade075{opacity: 0.75;transform: translateY(150px);transition: all 0.5s;}
+.fade075.up{opacity: 1;transform: translateY(0px);}
+.pr_img + p.fade075.up{transform: translateY(-100px);}
+.delay1{transition-delay: 0.5s;}
+.delay2{transition-delay: 1s;}
 
-.webborn {position: relative; width: 100%; height: 100%; background: #ffeb3b;}
+#wrap{overflow: hidden;}
+#container{position: relative;z-index: 50;padding-bottom: 100vh;}
+.webborn {position: fixed; top: 0; left: 0; width: 100%; height: 680px; background: #ffeb3b;}
 .webborn .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 80px; padding: 300px 0;}
 
+#container section:not(.webborn){position: relative;z-index: 10;background: #e0e0e0;}
 
-
+.aboutme{margin-top: 680px;}
 .aboutme {width: 100%; height: 100%; padding: 100px 0 200px;}
 .aboutme .cont_inner {display: flex; align-items: center;}
 
@@ -18,9 +26,8 @@
 .profile {position: relative; width: 100%; height: 100%; padding: 100px 0; font-weight: 700;}
 
 .profile .cont_inner_left {display: flex; align-items: center; flex-direction: row-reverse; justify-content: space-between;}
-.profile .cont_inner_left > div {border: 2px solid red;}
 .let_img {position: relative; width: 46.45833333333333vw;}
-.let_img p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; left: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
+.let_img p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; left: 0; width: 405px; height: 300px; background:#e0e0e0; line-height: 34px;}
 
 
 .right_txt .tit2 {font-size: 24px; color: #c5a045;}
@@ -41,22 +48,24 @@
 .webacces {position: relative; width: 100%;}
 .webacces .cont_inner .webtit {padding: 230px 0; letter-spacing: -2.5px;} 
 .webtit .color {color: #d18c2f;}
-.webacces h2 {font-size: 50px; padding: 0 0 100px;}
-.accsubtit {font-size: 30px; line-height: 30px; text-align: center;  color: #d18c2f;}
-.webacces .cont_inner ul li {float: left;}
+.webacces h2 {font-size: 50px; padding: 0 0 100px; text-align: center; margin: 200px 0;}
+.accsubtit {display: block;font-size: 30px; line-height:1.5; color: #d18c2f; padding: 200px 0;}
+.webacces .cont_inner ul{display: flex;justify-content: space-between;}
+.webacces .cont_inner ul li {width: 30%;}
+.webacces .ls12 {padding-top: 100px;}
 .webacces strong {font-size: 30px;}
 
 
 .projects {position: relative; width: 100%; height: 100%; padding: 300px 0; font-weight: 700;}
 .projects > div {display: flex; align-items: center; justify-content: space-between;}
-.projects .cont_inner_right .proimg {border: 2px solid red; background:  #ffeb3b;}
-.projects .cont_inner_left  .proimg {border: 2px solid red; background: #007c89;}
+.projects .cont_inner_right .proimg {background:  #ffeb3b;}
+.projects .cont_inner_left  .proimg { background: #007c89;}
 .proimg {position: relative; width: 52.08333333333333vw; height: 62.5vw; }
-.proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0; border: 2px solid red; line-height: 34px;}
+.proimg p {position: absolute; display: flex; align-items: center; justify-content: center; bottom: -100px; right: 0; width: 405px; height: 300px; background:#e0e0e0;  line-height: 34px;}
+.proimg p:hover {}
 
 .projects .cont_inner_left {display: flex; align-items: center;  flex-direction: row-reverse;}
-.projects .cont_inner_left > div {border: 2px solid red;}
-.pr_img {position: absolute; top: 50%; left: 50%; transform:translate(-50%,-50%);}
+.pr_img {position: absolute; /* top: 50%; left: 50%; transform:translate(-50%,-50%); 스크립트에서 처리 */}
 .bmw .proimg p {left: 0;}
 
 .prosub strong {font-size: 35px; line-height: 70px; letter-spacing: -1.75px;}
@@ -69,7 +78,8 @@
 
 .other {text-align: center;}
 
-footer {position: relative; width: 100%; background: #ffeb3b; font-family: "Rachel Roman"; }
+footer {position: fixed; bottom: 0; left: 0; width: 100%; height: 100vh; background: #ffeb3b; font-family: "Rachel Roman"; z-index: 20;}
+
 .foot_top .tit1 {font-size: 100px; text-align: center; height: 80px; line-height: 120px; padding: 150px 0 300px; margin: 100px; font-weight: 400;}
 
 .foot_top a {display: block; width: 150px; height: 70px; line-height: 70px; background: #007c89; margin: 0 auto; text-align: center; margin-bottom: 100px; border-radius: 10px;}

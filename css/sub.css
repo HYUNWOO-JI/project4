@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* projects */
-.projectswrap {display: flex; justify-content: space-between; align-items: center; margin: 70px 10.66666666666667vw;  }
-.prjectstit {text-align: center; line-height: 5; font-size: 30px;}
+.projectswrap {display: flex; justify-content: space-between; align-items: center; margin: 70px 10.26041666666667vw;  }
+
+.prjectstit, .acctit {text-align: center; line-height: 5; font-size: 30px;}
 #card-pick {
     transform: scale(1.1);
 }
@@ -83,24 +84,27 @@
 .colorbox .c8 {background: #000000;}
 .colorbox .c9 {background: #3090cd;}
 
-.prjectstit {font-size: 80px; font-family: serif; font-family: "Rachel Roman"; font-weight: 400; }
+.prjectstit {font-size: 80px; font-family: "Rachel Roman"; font-weight: 400;}
 .overview { margin: 60px 0 36px 0; font-size: 30px;}
 .overview p {font-size: 28px; line-height: 1.8;}
 
 .more {position: absolute; right: 0; top: 20px; width: 220px; height: 100px; color: #000; background: #ffeb3b; text-align: center; line-height: 100px; border-radius: 10px; font-family: "Rachel Roman";}
 
-.preview {display: flex; justify-content: space-around; align-items: center; }
-.disimg {flex-basis: 50%;}
+.preview {position:relative;}
+.preview .ls12 {position:absolute;top:50%;left:50px;transform:translateY(-50%);}
+.check .disimg {display:table;width:100%;table-layout:fixed;}
+.check .disimg:not(:first-of-type) {margin-top:100px;}
+.check .disimg .item {display:table-cell;vertical-align:middle;}
+.check .disimg .item:first-of-type {width:60%;padding-right:30px;}
+.check .disimg .item img {width:100%;}
 
-.webtit {display: flex; justify-content: center; align-items: center; margin-top: 50px;}
-.accw3c {flex-basis: 50%;}
-.accopen {flex-basis: 50%;}
+.webtit {display: flex; justify-content: space-around; align-items: center; margin-top: 50px; flex-basis: 50%;}
 .acctit {font-size: 80px; text-align: center; margin-top: 200px; color: #000;}
-.accopen img {margin-top: 110px;}
-
-
+.accw3c .item {text-align: center;}
+.accopen .item {text-align: center;}
 /* contact */
 .contac .titbg {position: relative; height: 100vh; font-size: 90px; color: #fff; text-align: center; bottom: 10px; background: no-repeat center; background-size: cover;}
+
 .contac {background-image: url(../images/contact/cotac_bg.jpg);}
 .contacwrap h1 {font-size: 76px; text-align: center; margin: 0 auto; padding: 300px 0; color: #fff; font-family: "Rachel Roman";}
 .contacwrap h1::after{
