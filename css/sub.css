@@ -105,15 +105,17 @@
 /* contact */
 .contac .titbg {position: relative; height: 100vh; font-size: 90px; color: #fff; text-align: center; bottom: 10px; background: no-repeat center; background-size: cover;}
 
-.contac {background-image: url(../images/contact/cotac_bg.jpg);}
-.contacwrap h1 {font-size: 76px; text-align: center; margin: 0 auto; padding: 300px 0; color: #fff; font-family: "Rachel Roman";}
+.contac {background-image: url(../images/contact/cotac_bg.jpg); height: 100vh;}
+.contacwrap {display: table; width: 100%; background: rgba(0,0,0,.6); height: 100vh;}
+.main {display: table-cell; vertical-align: middle;}
+.contacwrap h1 {font-size: 76px; text-align: center; margin: 0 auto; padding: 200px 0; color: #fff; font-family: "Rachel Roman";}
 .contacwrap h1::after{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: #ffeb3b;
   }
-
+.namead {padding: 10px 0;}
 .contactinfo {text-align: center; color: #fff; font-size: 30px;}
 /* footer */
 footer {position: relative; width: 100%; background: #ffeb3b; font-family: "Rachel Roman";}
