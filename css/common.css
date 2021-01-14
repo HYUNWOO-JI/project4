@@ -53,7 +53,7 @@ Common
 .cont_inner_left {margin-left: 10.26041666666667vw;}
 .cont_inner_right {margin-right: 10.26041666666667vw;}
 
-.fixedphone {position: fixed; bottom: 0; right: 2.104166666666667vw; transform: rotate(90deg); transform-origin: right top; font-size: 20px; color: #fff; transition: color 0.5s;}
+.fixedphone {position: fixed; bottom: 0; right: 2.104166666666667vw; transform: rotate(90deg); transform-origin: right top; font-size: 20px; color: #fff; transition: color 0.5s; z-index: 110;}
 .fixedphone.scroll {color: #000;}
 
 .ls15 {letter-spacing: -1.5px;}
